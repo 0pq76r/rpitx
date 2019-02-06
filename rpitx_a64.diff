@@ -1,0 +1,17 @@
+diff --git a/src/Makefile b/src/Makefile
+index 0668a0c..39095c9 100644
+--- a/src/Makefile
++++ b/src/Makefile
+@@ -1,4 +1,4 @@
+-all: ../pisstv ../piopera ../pifsq ../pichirp ../sendiq ../tune ../freedv ../dvbrf ../pocsag ../spectrumpaint ../pifmrds ../rpitx ../corel8 ../pift8
++all: ../pisstv ../piopera ../pifsq ../pichirp ../sendiq ../tune ../freedv ../pocsag ../spectrumpaint ../pifmrds ../rpitx ../corel8 ../pift8
+ 
+ CFLAGS	= -Wall -g -O2 -Wno-unused-variable
+ CXXFLAGS = -std=c++11 -Wall -g -O2 -Wno-unused-variable
+@@ -88,6 +88,5 @@ install: all
+ 	install -m 0755 ../sendiq /usr/bin
+ 	install -m 0755 ../tune /usr/bin
+ 	install -m 0755 ../freedv /usr/bin
+-	install -m 0755 ../dvbrf /usr/bin
+ 	install -m 0755 ../rpitx /usr/bin
+ 	install -m 0755 ../pift8 /usr/bin
